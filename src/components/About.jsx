@@ -40,7 +40,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         Hello, I'm Calvin, a full stack software engineer who has primary been working with JavaScript for two years. I have a commitment to writing excellent code and solving difficult problems. I'm seeking a position with a strong team at a forward-thinking and innovative company, and I am continuously working to improve my skills. Previously, I worked as a manager in the hospitality industry for seven years.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10 '>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}

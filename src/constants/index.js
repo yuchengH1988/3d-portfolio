@@ -1,12 +1,7 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
@@ -15,14 +10,19 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  chai,
+  vue,
+  gcp,
+  australia,
+  restaurant,
+  surveyor,
+  bartender,
+  louisa,
+  cama,
+  angie,
+  bat,
+  meteor,
+  cafeInventory,
 } from "../assets";
 
 export const navLinks = [
@@ -46,35 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -97,10 +77,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -112,59 +88,102 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "gcp",
+    icon: gcp
+  },
+  {
+    name: "Vue JS",
+    icon: vue,
+  },
+  {
+    name: "Chai JS",
+    icon: chai,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Australia Working Holiday",
+    iconBg: "#EEE",
+    icon: australia,
+    date: "Nov 2011 - Oct 2012",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Kitchen Hand."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Surveyor",
+    company_name: "San He Surveying",
+    icon: surveyor,
+    iconBg: "#fff",
+    date: "May 2013 - Apr 2013",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Measuring the road, mountain, and river bottom depth of the Tamsui River in Taipei."
+    ]
+  },
+  {
+    title: "Waiter",
+    icon: restaurant,
+    company_name: "四知堂 (Four Senses Hall)",
+    iconBg: "#fff",
+    date: "Aug 2014 ~ Apr 2015",
+    points: [
+      "Ensuring exceptional customer service and satisfaction at a Taiwanese Restaurant"
+    ]
+  },
+  {
+    title: "Waiter",
+    icon: angie,
+    company_name: "Osteria by Angie",
+    iconBg: "#fff",
+    date: "Apr 2015 ~  Feb 2016",
+    points: [
+      "Worked with multiple branches to share best practices and maintain consistency."
+    ]
+  },
+  {
+    title: "Barista",
+    icon: louisa,
+    iconBg: "#fff",
+    company_name: "Louisa Coffee",
+    date: "Jul 2016 - Aug 2017",
+    points: [
+      'Led and trained a team, ensuring smooth operations and a positive work environment.'
+    ]
+  },
+  {
+    title: "Manager",
+    icon: cama,
+    iconBg: "#fff",
+    date: "Oct 2017 - Jul 2020",
+    points: [
+      "Managed and trained a team of ten employees.",
+      "Created and maintained monthly staff schedules, and generated monthly and annual reports.",
+      "Oversaw inventory management and ordering.",
+    ]
+  },
+  {
+    title: "Part time - Bartender",
+    company_name: "Fairy",
+    icon: bartender,
+    iconBg: "#fff",
+    date: "Jun 2016 - Feb 2019",
+    points: [
+      'LGBT friendly bar'
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Node. Js Engineer",
+    company_name: "Bat Mobile Inc",
+    icon: bat,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Playing a key role supporting a Taiwanese student forum called Meteor, which hosts over 70,000 registered student accounts.",
+      "Responsibilities include coding for front-end, back-end and testing",
+      "Updating outdated code and documents.",
+      "Development new functions with app team and operation team.",
     ],
   },
 ];
@@ -198,68 +217,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Meteor",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A student forum called Meteor, which hosts over 70,000 registered student accounts. It has multiple platforms for management, client facing, android, ios, and pages for specific event.",
     tags: [
       {
-        name: "react",
+        name: "Node.Js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "multi-platform",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Chai.js",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: meteor,
+    website_link: "https://meteor.today/"
   },
   {
-    name: "Job IT",
+    name: "Inventory Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I made a system for coffee shops to track ingredients accurately, generate monthly reports, customize drinks, manage multiple shop accounts, and switch between metric and imperial units.",
     tags: [
       {
-        name: "react",
+        name: "Vue",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: cafeInventory,
+    source_code_link: "https://github.com/yuchengH1988/cafe-inventory",
+    website_link: "https://work-cafe-inventory.yuchengworkpresentation.net/"
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

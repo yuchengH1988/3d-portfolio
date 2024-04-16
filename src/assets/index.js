@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,15 +21,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vue from "./tech/vue.png";
+import gcp from "./tech/gcp.png";
+import chai from "./tech/chai.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import restaurant from "./company/restaurant.png";
+import australia from "./company/australia.png";
+import surveyor from "./company/surveyor.png";
+import bartender from "./company/bartender.png";
+import louisa from "./company/louisa.png";
+import angie from "./company/angie.png";
+import cama from "./company/cama.png";
+import bat from "./company/bat.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import meteor from "./meteor.jpg";
+import cafeInventory from "./cafe-inventory.jpg";
 
 export {
   logo,
@@ -37,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
@@ -52,11 +60,17 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  vue,
+  gcp,
+  chai,
+  restaurant,
+  australia,
+  surveyor,
+  bartender,
+  louisa,
+  cama,
+  angie,
+  bat,
+  meteor,
+  cafeInventory,
 };
