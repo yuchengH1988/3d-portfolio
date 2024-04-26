@@ -26,7 +26,6 @@ import gcp from "./tech/gcp.png";
 import chai from "./tech/chai.png";
 
 import restaurant from "./company/restaurant.png";
-import australia from "./company/australia.png";
 import surveyor from "./company/surveyor.png";
 import bartender from "./company/bartender.png";
 import louisa from "./company/louisa.png";
@@ -36,6 +35,7 @@ import bat from "./company/bat.png";
 
 import meteor from "./meteor.jpg";
 import cafeInventory from "./cafe-inventory.jpg";
+import p5js from "./p5js.jpg";
 
 export {
   logo,
@@ -64,7 +64,6 @@ export {
   gcp,
   chai,
   restaurant,
-  australia,
   surveyor,
   bartender,
   louisa,
@@ -73,4 +72,5 @@ export {
   bat,
   meteor,
   cafeInventory,
+  p5js,
 };

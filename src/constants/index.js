@@ -13,7 +13,6 @@ import {
   chai,
   vue,
   gcp,
-  australia,
   restaurant,
   surveyor,
   bartender,
@@ -23,6 +22,7 @@ import {
   bat,
   meteor,
   cafeInventory,
+  p5js,
 } from "../assets";
 
 export const navLinks = [
@@ -104,56 +104,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Australia Working Holiday",
-    iconBg: "#EEE",
-    icon: australia,
-    date: "Nov 2011 - Oct 2012",
+    title: "Node. Js Engineer",
+    company_name: "Bat Mobile Inc",
+    icon: bat,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
     points: [
-      "Kitchen Hand."
+      "Playing a key role supporting a Taiwanese student forum called Meteor, which hosts over 70,000 registered student accounts.",
+      "Responsibilities include coding for front-end, back-end and testing",
+      "Updating outdated code and documents.",
+      "Development new functions with app team and operation team.",
     ],
   },
   {
-    title: "Surveyor",
-    company_name: "San He Surveying",
-    icon: surveyor,
-    iconBg: "#fff",
-    date: "May 2013 - Apr 2013",
-    points: [
-      "Measuring the road, mountain, and river bottom depth of the Tamsui River in Taipei."
-    ]
-  },
-  {
-    title: "Waiter",
-    icon: restaurant,
-    company_name: "四知堂 (Four Senses Hall)",
-    iconBg: "#fff",
-    date: "Aug 2014 ~ Apr 2015",
-    points: [
-      "Ensuring exceptional customer service and satisfaction at a Taiwanese Restaurant"
-    ]
-  },
-  {
-    title: "Waiter",
-    icon: angie,
-    company_name: "Osteria by Angie",
-    iconBg: "#fff",
-    date: "Apr 2015 ~  Feb 2016",
-    points: [
-      "Worked with multiple branches to share best practices and maintain consistency."
-    ]
-  },
-  {
-    title: "Barista",
-    icon: louisa,
-    iconBg: "#fff",
-    company_name: "Louisa Coffee",
-    date: "Jul 2016 - Aug 2017",
-    points: [
-      'Led and trained a team, ensuring smooth operations and a positive work environment.'
-    ]
-  },
-  {
     title: "Manager",
+    company_name:"CAMA coffee",
     icon: cama,
     iconBg: "#fff",
     date: "Oct 2017 - Jul 2020",
@@ -174,17 +139,44 @@ const experiences = [
     ],
   },
   {
-    title: "Node. Js Engineer",
-    company_name: "Bat Mobile Inc",
-    icon: bat,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Barista",
+    icon: louisa,
+    iconBg: "#fff",
+    company_name: "Louisa Coffee",
+    date: "Jul 2016 - Aug 2017",
     points: [
-      "Playing a key role supporting a Taiwanese student forum called Meteor, which hosts over 70,000 registered student accounts.",
-      "Responsibilities include coding for front-end, back-end and testing",
-      "Updating outdated code and documents.",
-      "Development new functions with app team and operation team.",
-    ],
+      'Led and trained a team, ensuring smooth operations and a positive work environment.'
+    ]
+  },
+  {
+    title: "Waiter",
+    icon: angie,
+    company_name: "Osteria by Angie",
+    iconBg: "#fff",
+    date: "Apr 2015 ~  Feb 2016",
+    points: [
+      "Worked with multiple branches to share best practices and maintain consistency."
+    ]
+  },
+  {
+    title: "Waiter",
+    icon: restaurant,
+    company_name: "四知堂 (Four Senses Hall)",
+    iconBg: "#fff",
+    date: "Aug 2014 ~ Apr 2015",
+    points: [
+      "Ensuring exceptional customer service and satisfaction at a Taiwanese Restaurant"
+    ]
+  },
+  {
+    title: "Surveyor",
+    company_name: "San He Surveying",
+    icon: surveyor,
+    iconBg: "#fff",
+    date: "May 2013 - Apr 2013",
+    points: [
+      "Measuring the road, mountain, and river bottom depth of the Tamsui River in Taipei."
+    ]
   },
 ];
 
@@ -258,6 +250,19 @@ const projects = [
     image: cafeInventory,
     source_code_link: "https://github.com/yuchengH1988/cafe-inventory",
     website_link: "https://work-cafe-inventory.yuchengworkpresentation.net/"
+  },
+  {
+    name: "Generative Digital Art",
+    description:
+      "I create original designs using creative coding through p5.js on the OpenProcessing platform. This JavaScript library facilitates the creation of interactive graphics and animations.",
+    tags: [
+      {
+        name: "p5.js",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: p5js,
+    website_link: "https://openprocessing.org/user/436847?view=sketches"
   }
 ];
 
