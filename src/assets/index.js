@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -19,7 +18,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import vue from "./tech/vue.png";
 import gcp from "./tech/gcp.png";
@@ -40,7 +38,6 @@ import p5js from "./p5js.jpg";
 export {
   logo,
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -58,7 +55,6 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
   vue,
   gcp,
